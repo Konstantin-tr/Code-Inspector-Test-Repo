@@ -4,8 +4,8 @@ This is a repository made to test the Static Analysis Tool "Code Inspector". The
 
 ## Project Quality Score
 
-https://api.codiga.io/project/29809/score/svg
+![Code Quality Score](https://api.codiga.io/project/29809/score/svg)
 
 ## Project Quality Grade
 
-https://api.codiga.io/project/29809/status/svg
+![Code Quality Score](https://api.codiga.io/project/29809/status/svg)
