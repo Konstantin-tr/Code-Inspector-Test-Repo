@@ -14,10 +14,12 @@ cursor = mydb.cursor()
 username = input("Enter the username: ")
 userpass = input("Enter the password: ")
 
-sql = "SELECT * FROM users WHERE name = '" + username + "' AND password = '"+ userpass +"';"
+sql = "SELECT * FROM users WHERE name = %s AND password = %s;"
 print(sql)
 
-cursor.execute(sql)
+login = (username, userpass)
+
+cursor.execute(sql, login)
 
 myresult = cursor.fetchall()
 
